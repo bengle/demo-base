@@ -26,6 +26,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // route start
 app.use('/', routes);
 app.use('/test',routes);
+app.use('/test1',routes);
 // route end
 
 /// catch 404 and forward to error handler
